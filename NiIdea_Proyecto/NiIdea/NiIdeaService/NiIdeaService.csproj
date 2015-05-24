@@ -13,13 +13,14 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>NiIdeaService</RootNamespace>
     <AssemblyName>NiIdeaService</AssemblyName>
-    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <WcfConfigValidationEnabled>True</WcfConfigValidationEnabled>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -48,12 +49,12 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\Librerias\NHibernate.dll</HintPath>
     </Reference>
+    <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
-    <Reference Include="System.Core" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.EnterpriseServices" />
@@ -68,21 +69,29 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Dominio\Proyecto.hbm.xml" />
+    <EmbeddedResource Include="Dominio\Responsable.hbm.xml" />
     <Content Include="Librerias\Iesi.Collections.dll" />
     <Content Include="Librerias\NHibernate.dll" />
     <Content Include="ProyectoService.svc" />
+    <Content Include="RRHHServices.svc" />
     <Content Include="Service1.svc" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Dominio\Responsable.cs" />
     <Compile Include="Dominio\Proyecto.cs" />
     <Compile Include="IProyectoService.cs" />
+    <Compile Include="IRRHHServices.cs" />
     <Compile Include="Persistencia\BaseDAO.cs" />
     <Compile Include="Persistencia\ConexionUtil.cs" />
     <Compile Include="Persistencia\NHibernateHelper.cs" />
     <Compile Include="Persistencia\ProyectoDAO.cs" />
+    <Compile Include="Persistencia\ResponsableDAO.cs" />
     <Compile Include="ProyectoService.svc.cs">
       <DependentUpon>ProyectoService.svc</DependentUpon>
+    </Compile>
+    <Compile Include="RRHHServices.svc.cs">
+      <DependentUpon>RRHHServices.svc</DependentUpon>
     </Compile>
     <Compile Include="Service1.svc.cs">
       <DependentUpon>Service1.svc</DependentUpon>

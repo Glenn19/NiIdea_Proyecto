@@ -6,3 +6,9 @@ C:\NiIdea_Proyecto\NiIdea\NiIdeaService\obj\Debug\NiIdeaService.dll
 C:\NiIdea_Proyecto\NiIdea\NiIdeaService\obj\Debug\NiIdeaService.pdb
 C:\NiIdea_Proyecto\NiIdea\NiIdeaService\bin\NiIdeaService.dll.CodeAnalysisLog.xml
 C:\NiIdea_Proyecto\NiIdea\NiIdeaService\bin\NiIdeaService.dll.lastcodeanalysissucceeded
+D:\UPC-EPE\CICLO VI\DESARROLLO SISTEMA DISTRIBUIDO\PROYECTO\clone GitHub Project\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea\NiIdeaService\bin\NiIdeaService.dll
+D:\UPC-EPE\CICLO VI\DESARROLLO SISTEMA DISTRIBUIDO\PROYECTO\clone GitHub Project\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea\NiIdeaService\bin\NiIdeaService.pdb
+D:\UPC-EPE\CICLO VI\DESARROLLO SISTEMA DISTRIBUIDO\PROYECTO\clone GitHub Project\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea\NiIdeaService\bin\Iesi.Collections.dll
+D:\UPC-EPE\CICLO VI\DESARROLLO SISTEMA DISTRIBUIDO\PROYECTO\clone GitHub Project\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea\NiIdeaService\bin\NHibernate.dll
+D:\UPC-EPE\CICLO VI\DESARROLLO SISTEMA DISTRIBUIDO\PROYECTO\clone GitHub Project\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea\NiIdeaService\obj\Debug\NiIdeaService.dll
+D:\UPC-EPE\CICLO VI\DESARROLLO SISTEMA DISTRIBUIDO\PROYECTO\clone GitHub Project\NiIdea_Proyecto\NiIdea_Proyecto\NiIdea\NiIdeaService\obj\Debug\NiIdeaService.pdb
